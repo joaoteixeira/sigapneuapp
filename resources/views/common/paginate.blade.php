@@ -1,3 +1,4 @@
+@if (false)
 <div class="box-footer clearfix">
     <!-- Pagination -->
     <div class="pull-right">
@@ -8,3 +9,4 @@
     <!-- / End Pagination -->
 </div>
 <!-- /.box-footer -->
+@endif

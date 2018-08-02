@@ -58,7 +58,7 @@ if (count($records) > 0) {
 
         @includeIf($resourceAlias.'._search')
 
-        <div class="box-body no-padding">
+        <div class="box-body no-padding2">
             @if (count($records) > 0)
                 <div class="padding-5">
                     <span class="text-green padding-l-5">Total: {{ $total }} items.</span>&nbsp;

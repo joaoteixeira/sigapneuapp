@@ -1,8 +1,7 @@
 <div class="table-responsive list-records">
     <table class="table table-hover table-bordered">
         <thead>
-            <th>#</th>
-            <th>Id</th>
+            <th width="1">#</th>
             <th>Marca</th>
             <th>Tipo</th>
             <th>Km Inicial</th>
@@ -22,11 +21,6 @@
             ?>
             <tr>
                 <td>{{ $tableCounter }}</td>
-                <td>
-                    @if ($canUpdate)
-                        <a href="{{ $editLink }}">{{ $record->id }}</a>
-                    @else {{ $record->id }} @endif
-                </td>
 
                 <td class="table-text">
                     <a href="{{ $editLink }}">{{ $record->marca }}</a>
