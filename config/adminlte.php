@@ -42,8 +42,8 @@ return [
     | Menu Logos
     |--------------------------------------------------------------------------
     */
-    'logo_lg'   => '<b>Admin</b>LTE',
-    'logo_mini' => '<b>A</b>LTE',
+    'logo_lg'   => '<b>Siga</b>Pneu App',
+    'logo_mini' => '<b>S</b>Pneu',
 
     /*
     |--------------------------------------------------------------------------
@@ -56,7 +56,7 @@ return [
     |
     */
 
-    'credits' => 'Powered By: <a target="_blank" href="mailto:user@example.com">Developer</a>',
+    'credits' => 'Powered By: <a target="_blank" href="http://spacedevapp.com">Siga Pneu Developer</a>',
 
     /*
     |--------------------------------------------------------------------------
@@ -83,5 +83,5 @@ return [
     |
     */
 
-    'theme' => 'skin-blue',
+    'theme' => 'skin-yellow',
 ];
