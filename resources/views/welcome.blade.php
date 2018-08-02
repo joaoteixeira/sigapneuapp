@@ -87,7 +87,7 @@
                 <input type="password" class="form-control" placeholder="Senha" name="password" required>
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
 
-                if ($errors->has('password'))
+                @if ($errors->has('password'))
                     <span class="help-block">
                         <strong>{{ $errors->first('password') }}</strong>
                     </span>
