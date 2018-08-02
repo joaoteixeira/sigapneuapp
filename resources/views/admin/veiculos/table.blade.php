@@ -32,7 +32,7 @@
                     <a href="{{ $editLink }}">{{ $record->marca }}</a>
                 </td>
                 <td>{{ $record->tipo }}</td>
-                <td>{{ $record->km_inicial }}</td>
+                <td>{{ number_format($record->km_inicial, 0, '', '.') }} km</td>
                 <td>{{ $record->trem_forca }}</td>
 
                 <!-- <td class="table-text">
